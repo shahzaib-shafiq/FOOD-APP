@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Product = () => {
+const Product = (props) => {
+  console.log(props);
   return (
     <div>
        <div className="text-center">
